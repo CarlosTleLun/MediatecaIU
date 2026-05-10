@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mediateca IU</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+
+     <header class="site-header">
+
+        <video class="header-video" autoplay muted loop playsinline>
+            <source src="img/IU.mp4" type="video/mp4">
+            Tu navegador no soporta video HTML5.
+        </video>
+
+        <nav class="main-nav">
+            <img src="img/logos.png" alt="Logo">
+            <h1></h1>
+            <div class="links">
+                <a href="index.html">Inicio</a>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <section class="content-aprender">
+        <h2 style="text-align: center;"><img class="goyito" src="img/logos/aprender-icon.png" alt="Aprender">Aprender a aprender</h2>
+        <ul>
+            <li data-content="contenido1">
+                <img src="img/logos/presentacion.png" alt="icono 1">
+                <strong>Como hacer una lectura Analítica</strong>
+            </li>
+            <div id="contenido1" class="oculto-aprender">
+                <div class="canva">
+                    <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+                     padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+                     border-radius: 8px; will-change: transform;">
+                        <iframe loading="lazy"
+                            style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                            src="https://www.canva.com/design/DAF6EixMASQ/jO_5b1V08xAMStjH3dPRhg/view?embed"
+                            allowfullscreen="allowfullscreen" allow="fullscreen">
+                        </iframe>
+                    </div>
+                    <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF6EixMASQ&#x2F;jO_5b1V08xAMStjH3dPRhg&#x2F;view?utm_content=DAF6EixMASQ&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+                        target="_blank" rel="noopener">Como hacer una lectura analítica </a> de CITLALI E HIRAM
+                    MONROY
+                </div>
+            </div>
+            <!--Aquí van los enclaces
+            <li data-link="https://example.com">
+                <img src="icono2.png" alt="icono 2">
+                <strong>Elemento 2</strong>
+            </li>
+            <li data-content="contenido3">
+                <img src="icono3.png" alt="icono 3">
+                <strong>Elemento 3</strong>
+            </li>
+            <div id="contenido3" class="oculto">
+                <p>Este es el contenido de Elemento 3.</p>
+            </div>
+            <li data-link="pagina.html">
+                <img src="icono4.png" alt="icono 4">
+                <strong>Elemento 4</strong>
+            </li>-->
+        </ul>
+    </section>
+
+    <footer class="footer-unam">
+        <div class="footer-top">
+            <div class="footer-texto">
+                <h3>Escuela Nacional Preparatoria No. 2</h3>
+                <p>
+                    © Hecho en México, Universidad Nacional Autónoma de México (UNAM), todos los derechos reservados
+                    2025.
+                    Esta página puede ser reproducida con fines no lucrativos, siempre y cuando se cite la fuente
+                    completa y su dirección electrónica.
+                </p>
+                <p>
+                    <a href="http://prepa2.unam.mx/docs/Aviso_privacidad_simplificado.pdf" target="_blank"
+                        class="aviso-enlace">
+                        Aviso de privacidad simplificado
+                    </a>
+                </p>
+            </div>
+
+            <div class="footer-creditos">
+                <h4 id="abrirCreditos">Créditos</h4>
+            </div>
+
+            <div class="footer-logo-container">
+                <h3>Ligas de interés</h3>
+                <ul class="footer-links">
+                    <li><a href="https://prepa2.enp.unam.mx/" target="_blank">Sitio oficial Prepa 2</a></li>
+                    <li><a href="https://www.unam.mx/" target="_blank">Universidad Nacional Autónoma de México</a></li>
+                    <li><a href="http://enp.unam.mx/" target="_blank">Dirección General de la ENP</a></li>
+                    <li><a href="http://cel.prepa2.unam.mx/Mediateca.html" target="_blank">Mediateca Prepa 2</a></li>
+                </ul>
+                <br><br>
+                <img src="img/firmaUNAM.png" alt="UNAM" class="footer-logo">
+
+
+            </div>
+        </div>
+
+        <!-- Modal Créditos -->
+        <div id="modalCreditos" class="modal">
+            <div class="modal-content">
+                <h3 style="text-align:center;">Créditos</h3>
+                <ul>
+                    <li><strong>Contenido:</strong></li>
+                    <p>Citlali Melissa García Monroy</p>
+                    <p>Sonia Licona Ortiz</p>
+                    <p>Hiram Delgado Camacho</p>
+                    <p>Nohemí Lobato</p>
+                    <li><strong>Desarrollo:</strong> T.A. Carlos Tlecuitl</li>
+                </ul>
+                <button id="cerrarModal" class="btn-cerrar">Cerrar</button>
+            </div>
+        </div>
+
+        <div class="footer-bottom"></div>
+
+    </footer>
+    <script src="js/header.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/abrir-cerrar.js"></script>
+    <script src="js/scroll-header.js"></script>
+</body>
+
+</html>
